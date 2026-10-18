@@ -40,7 +40,7 @@ Transcripts, speaker labels, summaries, key points and action items are generate
 
 ## 7. User Content
 
-All recordings, transcripts and notes remain your property and stay on your device. Because the App has no network permission, this content is never transmitted to us or to any third party. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
+All recordings, transcripts and notes remain your property and stay on your device: they are never transmitted to us or to any third party. The App's only network activity is loading the one advertising message described in our Privacy Policy, which has no access to your content. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
 
 ## 8. Privacy
 
