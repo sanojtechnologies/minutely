@@ -17,6 +17,7 @@ You may:
 - Record audio and generate transcripts and notes for personal use
 - Play back, review, rename and delete your own recordings
 - Share notes and audio you created, using your device's share menu
+- Download or delete optional quality preset models to manage your device storage
 - Provide feedback and suggestions
 
 ## 4. Prohibited Use
@@ -40,11 +41,11 @@ Transcripts, speaker labels, summaries, key points and action items are generate
 
 ## 7. User Content
 
-All recordings, transcripts and notes remain your property and stay on your device: they are never transmitted to us or to any third party. The App's only network activity is loading the one advertising message described in our Privacy Policy, which has no access to your content. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
+All recordings, transcripts and notes remain your property and stay on your device: they are never transmitted to us or to any third party. The App's network activity is strictly limited to downloading open-source model weights on demand and loading the one advertising message described in our Privacy Policy, neither of which has access to your content. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
 
 ## 8. Privacy
 
-Your privacy is important to us. Please review our [Privacy Policy](PRIVACY_POLICY.md), which explains how we handle your information. In short: the App collects nothing and sends nothing; all processing happens on your device.
+Your privacy is important to us. Please review our [Privacy Policy](PRIVACY_POLICY.md), which explains how we handle your information. In short: all recording, transcription, diarization and summarisation happen entirely on your device, and your personal data never leaves your phone.
 
 ## 9. Availability and Maintenance
 
@@ -67,7 +68,7 @@ You agree to indemnify and hold harmless Sanoj Technologies from any claims, dam
 
 ## 13. Open Source
 
-The App is built with open-source software, including whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Llama 3.2 model terms). Those licenses govern your use of those components; nothing in these Terms limits rights you have under them.
+The App is built with open-source software, including whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Llama 3.2 Community License and Whisper MIT license). Models downloaded on demand by the App are public open-source weights; those licenses govern your use of those components, and nothing in these Terms limits rights you have under them.
 
 ## 14. Updates to Terms
 
