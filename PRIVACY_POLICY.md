@@ -1,147 +1,91 @@
 # Privacy Policy for Minutely
 
-**Last Updated**: October 18, 2026  
+**Last Updated**: November 4, 2026
 **Published by**: Sanoj Technologies
 
-## Introduction
+## Summary
 
-Welcome to Minutely, developed and published by Sanoj Technologies ("we", "our", or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we handle your data when you use our mobile application.
+Minutely records meetings and writes transcripts, speaker labels and notes on your phone. Your recordings, transcripts and notes are never uploaded. We have no accounts and no servers that receive your data. The app is free and shows ads from Google AdMob. Google's ad software collects some device data to show and measure ads, as described below.
 
-## Information We Collect
+## Your meetings stay on your device
 
-### Data Stored Locally
-- **Recordings**: Audio you record is saved as files in the app's private documents directory
-- **Transcripts**: The text produced from your recordings, including speaker labels you assign
-- **Meeting Notes**: Titles, summaries, key points and action items generated from your recordings
-- **Session Details**: Timestamps, durations and playback positions stored in a local SQLite database
-- **Ad Frequency History**: A timestamp per recording of when an ad was last shown for it, used for one purpose only — not showing you the same recording's ad again the same day
-- **On-device Models**: Speech-to-text, speaker and summarisation models stored in private app storage (downloaded or unpacked on first launch and when you choose higher-tier presets) so they run 100% offline
-- **App Preferences**: Display theme, quality presets, and other engine configuration options
+- Recording, transcription, speaker labelling and note writing all run on your phone, using AI models that come with the app.
+- Your audio, transcripts and notes are never sent to us, to Google's ad software or to anyone else, unless you choose to share them yourself.
+- To tell speakers apart, the app analyses the voices in a recording. This happens only on your phone.
 
-### Data We DO NOT Collect
-- We do NOT collect any personal information directly
-- We do NOT collect your name, email, or contact information
-- We do NOT track your location
-- We do NOT access or transmit your recordings, transcripts or summaries to any external servers — not even for advertising
-- We do NOT use analytics or tracking services of our own
-- We do NOT use cookies (there is no web version)
-- We do NOT sell your personal information
+## Data stored only on your device
 
-The only network uses are downloading public open-source AI model weights on demand and the advertising SDK described below; neither ever receives, accesses, or transmits your recordings, transcripts, or personal content.
+- **Recordings**: the audio files you record
+- **Transcripts and notes**: transcripts, speaker labels, titles, summaries, key points and action items
+- **Names and terms**: names you give speakers, and names and terms you enter so the app can spell them correctly
+- **Meeting details**: dates, durations and playback positions
+- **Ad history**: when an ad was last shown for each recording, used only to limit how often ads appear
+- **Preferences**: your notes style and other settings
 
-## How We Use Your Data
+Minutely turns off Android auto backup and device-to-device transfer for its data, so the system doesn't copy these to cloud backup or to a new phone.
 
-- **Recordings**: Saved locally so you can play them back and re-read their notes
-- **Transcripts and Notes**: Generated locally and stored so you can search, review and export them
-- **Speaker Labels**: Derived locally from your audio so transcript speakers can be named
-- **Preferences**: Saved locally to remember your theme, presets, and display settings
+## Sharing
 
-## Data Storage
+Sharing is always your choice. If you use the share action, you decide what to send and where. The app or service you send it to handles it under its own privacy policy.
 
-All data is stored locally on your device:
-- **Sessions**: SQLite database (titles, transcripts, speaker labels, summaries) in the app's private database directory
-- **Audio**: WAV files in the app's private documents directory
-- **Models**: Downloaded on first launch (or unpacked from the app package where pre-bundled) into private app storage, with optional higher-tier presets downloaded on demand
-- **Preferences**: Held by the operating system's app preferences storage and local settings store
+If you record other people, recording and consent laws may require you to tell them or get their permission first. See our Terms of Service.
 
-## Data Processing
+## Advertising (Google AdMob)
 
-**Important**: Recording, transcription, speaker identification and summarisation all happen entirely on your device. Your audio is never uploaded, and neither are your transcripts, notes or any statistics derived from them — neither model downloads nor the advertising SDK has access to any of it. The app's only network traffic is:
-1. **Model Weights Downloads**: Secure HTTPS requests to public open-source model repositories (such as Hugging Face) to download static model files on first launch or when you select an upgraded quality preset.
-2. **Advertising**: Loading the single frequency-capped ad described below (and opening policy links in your browser, which happens outside the app).
+Ads are shown in one place: a full-screen ad may appear when you open a recording's transcript, at most once per recording per calendar day. Ads never appear during recording, playback or note writing.
 
-Sharing is something you do yourself: if you use the app's share action, you choose what to send and the receiving app (email, chat, cloud drive) handles it under its own privacy policy.
+To show ads, measure them and prevent fraud, Google's Mobile Ads SDK collects and shares the following automatically:
 
-## Advertising
+- **Device identifiers**: the Android advertising ID and app set ID
+- **IP address**, which can be used to estimate your general location
+- **App interactions**: for example app launches, taps and ad views
+- **Diagnostic information**: for example app launch time and performance
 
-Minutely is free and supported by advertising, shown through **Google AdMob**. Ads appear in exactly one place: when you open a recording's transcript. Never during recording, playback or summaries. The app limits this to one ad per recording per calendar day and stores only the per-recording timestamp needed to enforce that limit.
+This data is encrypted in transit. Google processes it under its own privacy policy: https://policies.google.com/privacy. How Google uses data from apps that use its services: https://policies.google.com/technologies/partner-sites
 
-Google's ad SDK may collect, for advertising, measurement and fraud prevention:
-- Your Android Advertising Identifier (or another resettable device identifier), device and OS type, and your approximate region inferred from your IP address
-- Ad events — for example that an ad was shown — used for reporting
-- With your consent, data used to personalise the ads you see
+Ads need an internet connection. Recording, transcription and note writing never do.
 
-For users in the EEA and the UK, the app shows Google's standard consent form on first launch, before any ad is requested; ads are only requested once Google records your decision. Where required, the About screen (info button on the home screen) contains an **"Ad privacy settings"** entry that reopens that form so you can change your choice at any time. You can also opt out of personalised advertising system-wide through your device's settings (Android: Settings → Privacy → Ads).
+**Consent**: in the European Economic Area and the UK, the app shows Google's consent form before any ad is requested. Where this applies, you can change your choice at any time with **Ad Privacy Settings** under Settings → About Minutely.
 
-Google's own processing is described in:
-- [Google Privacy & Terms](https://policies.google.com/privacy)
-- [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
-- [Google Ads personalisation controls](https://adssettings.google.com)
+**Your choices**: you can reset or delete your advertising ID, or opt out of personalised ads, in your phone's settings (Settings → Google → Ads, or Settings → Privacy → Ads, depending on your phone).
 
-Your recordings, transcripts and summaries are never transmitted for advertising or any other purpose.
+## Other network use
 
-## Data Retention
+- **Ratings**: the app may ask you to rate it using Google Play's rating screen. Google Play handles that screen and your rating.
+- **Links**: policy and support links open in your browser, outside the app.
 
-- **Sessions and Recordings**: Persist until you:
-  - Delete the recording inside the app
-  - Clear app data or cache from system settings
-  - Uninstall the app
-- **On-device Models**: Default models remain in app storage until you clear app data or uninstall. Optional quality preset models (such as Whisper Base or LLaMA 3.2 3B) can be deleted directly within the app's settings at any time to free device storage.
+The app has no analytics of its own.
 
-## Backup
+## Permissions
 
-Minutely disables Android auto backup and device-to-device transfer for its app data, so recordings, transcripts and summaries are not copied to cloud backup services or moved to a new device by the system.
+- **Microphone**: to record after you start a recording
+- **Notifications**: to show that a recording or background job is running, and when your notes are ready
+- **Foreground services and wake lock**: to keep recording and writing notes when the screen is off or the app is in the background
+- **Internet and network state**: for ads and the features under "Other network use"; never for your recordings, transcripts or notes
+- **Advertising ID**: used by Google's ad software, as described above
 
-## Permissions We Request
+## Keeping and deleting your data
 
-- **Microphone**: Required to capture audio when you start a recording. Recording only happens while you have started a session.
-- **Notifications**: Used for the ongoing "Recording" notification and its lock-screen Stop action while a session is in progress or being processed, as well as progress notifications during background AI model downloads and session regenerations.
-- **Foreground Services & Wake Lock**: Keeps the CPU alive and maintains network sockets during model downloading and audio processing so tasks are not interrupted when the app is minimized or the screen is turned off.
-- **Internet**: Used only to download public open-source model files (on first launch or when you switch quality presets) and to load the one ad described above and its consent and measurement calls. Recording, transcription, diarization and summarisation run strictly on-device and never transmit data.
-- **Advertising ID** (`com.google.android.gms.permission.AD_ID`): Lets Google AdMob serve, attribute and measure ads. You can reset or delete this identifier in your device settings.
+Your data stays on your phone until you delete a meeting in the app, clear the app's data or uninstall the app.
 
-## Children's Privacy
+We hold no personal data about you on any server, so there is nothing for us to access, correct or delete. For data processed by Google for advertising, see Google's privacy policy and controls.
 
-Our app is suitable for all ages. We do not knowingly collect personal information from children. Advertising is delivered by Google AdMob under Google's own policies, and personalised advertising is not targeted at children.
+## Security
 
-## Your Rights
+Your data is kept in the app's private storage and protected by your phone's own security, such as its screen lock and any encryption your phone provides.
 
-You have the right to:
-- Delete any recording and its notes at any time from the app
-- Delete optional downloaded model weights from the settings screen to reclaim storage
-- Delete all your data by clearing app data or uninstalling the app
-- Withdraw or change your ad consent via the "Ad privacy settings" entry on the About screen (where shown) or your device's Ads settings
-- Access your locally stored data through the app's library and export features
+## Children
 
-## Third-Party Services
+The app is not directed at children under 13, and we do not knowingly collect personal information from children.
 
-We do not use analytics. Third-party network interactions are strictly limited to:
-1. **Model Downloads**: When downloading open-source speech and language models, the app connects directly to public model repositories (Hugging Face) via secure HTTPS to fetch static model files. No user data, device identifiers, audio, transcripts, or usage telemetry are transmitted during this download.
-2. **Google AdMob**: Delivers and measures the single frequency-capped ad described above; its SDK runs inside the app.
+## GDPR and CCPA
 
-Everything else — whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg, SQLite and the speech, speaker and summarisation inference engines — runs entirely on your device with no network access.
+For users in the EU/UK (GDPR) and California (CCPA): we do not sell personal information. Advertising data is processed by Google as described above. In the EEA and UK, personalised advertising relies on your consent, which you can withdraw as described above.
 
-## Changes to This Policy
+## Changes
 
-We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website.
+We may update this policy. The date at the top shows the latest version.
 
-## Data Security
+## Contact
 
-All data is stored locally on your device in the app's private storage and is subject to your device's security measures (screen lock, encryption at rest where your device provides it). Since all processing happens on-device, your recordings and transcripts never leave your device.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, please contact us at:
-- **Company**: Sanoj Technologies
-- **Email**: contact@sanojtechnologies.com
-- **Website**: https://sanojtechnologies.com
-
-## GDPR Compliance
-
-For users in the European Union, United Kingdom and EEA:
-- Your recordings, transcripts and summaries are processed only on your device; we never receive a copy of them
-- Google processes limited device data in order to show ads; the legal basis for personalised advertising is your consent
-- That consent is collected through Google's standard consent form on first launch, before any ad is requested
-- You may withdraw it at any time via the "Ad privacy settings" entry on the About screen, or through your device's Ads settings
-
-## CCPA Compliance
-
-For California residents:
-- We do not sell personal information
-- We do not have access to, and never collect, your recordings, transcripts or notes
-- Device data used to serve ads is processed by Google AdMob under Google's own policies
-- You can opt out of ad personalisation through your device's Ads settings
-
----
-
-**Summary**: Minutely stores your recordings, transcripts and meeting notes locally on your device only. Everything — recording, transcription, speaker labelling and summarisation — happens entirely on your device, and your audio never leaves your phone. The app's network use is strictly limited to downloading open-source model weights on demand and the single ad shown when you open a transcript; we do not collect, view, or transmit your content or personal information. Ever.
+Sanoj Technologies, contact@sanojtechnologies.com, https://sanojtechnologies.com
