@@ -17,7 +17,6 @@ You may:
 - Record audio and generate transcripts and notes for personal use
 - Play back, review, rename and delete your own recordings
 - Share notes and audio you created, using your device's share menu
-- Download or delete optional quality preset models to manage your device storage
 - Provide feedback and suggestions
 
 ## 4. Prohibited Use
@@ -68,7 +67,7 @@ You agree to indemnify and hold harmless Sanoj Technologies from any claims, dam
 
 ## 13. Open Source
 
-The App is built with open-source software, including whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Llama 3.2 Community License and Whisper MIT license). Models downloaded on demand by the App are public open-source weights; those licenses govern your use of those components, and nothing in these Terms limits rights you have under them.
+The App is built with open-source software, including whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Apache 2.0 license for Qwen3 and the MIT license for Whisper). The models that come with the App are public open-source weights; those licenses govern your use of those components, and nothing in these Terms limits rights you have under them.
 
 ## 14. Updates to Terms
 
