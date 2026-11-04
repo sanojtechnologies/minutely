@@ -1,6 +1,6 @@
 # Terms of Service for Minutely
 
-**Last Updated**: October 18, 2026  
+**Last Updated**: November 5, 2026  
 **Published by**: Sanoj Technologies
 
 ## 1. Acceptance of Terms
@@ -41,7 +41,7 @@ Transcripts, speaker labels, summaries, key points and action items are generate
 
 ## 7. User Content
 
-All recordings, transcripts and notes remain your property and stay on your device: they are never transmitted to us or to any third party. The App's network activity is strictly limited to downloading open-source model weights on demand and loading the one advertising message described in our Privacy Policy, neither of which has access to your content. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
+All recordings, transcripts and notes remain your property and stay on your device: they are never transmitted to us or to any third party. The App's network activity is limited to the advertising and Google Play rating features described in our Privacy Policy, neither of which has access to your content. We claim no ownership over your content. You are responsible for maintaining your own backups: deleting a session, clearing app data, or uninstalling the App permanently removes its audio, transcripts and notes.
 
 ## 8. Privacy
 
