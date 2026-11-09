@@ -1,6 +1,6 @@
 # Terms of Service for Minutely
 
-**Last Updated**: November 5, 2026  
+**Last Updated**: November 10, 2026  
 **Published by**: Sanoj Technologies
 
 ## 1. Acceptance of Terms
@@ -67,7 +67,7 @@ You agree to indemnify and hold harmless Sanoj Technologies from any claims, dam
 
 ## 13. Open Source
 
-The App is built with open-source software, including whisper.cpp, sherpa-onnx, llama.cpp, ffmpeg and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Apache 2.0 license for Qwen3 and the MIT license for Whisper). The models that come with the App are public open-source weights; those licenses govern your use of those components, and nothing in these Terms limits rights you have under them.
+The App is built with open-source software, including whisper.cpp, sherpa-onnx, ONNX Runtime, llama.cpp and SQLite, together with on-device speech, speaker and summarisation models that carry their own licenses (for example, the Apache 2.0 license for Qwen3 and the MIT license for Whisper). The models that come with the App are public open-source weights; those licenses govern your use of those components, and nothing in these Terms limits rights you have under them. The App's Open-source licences screen (About) lists each component with its license.
 
 ## 14. Updates to Terms
 
